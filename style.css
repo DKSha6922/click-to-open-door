@@ -11,14 +11,14 @@ body {
   background-color: black;
 }
 img {
-  width: 100vw;
-  height: 50rem;
+  width: 50rem;
+  height: 34rem;
   transition: 10s all;
   z-index: 999;
 }
 h1 {
   position: absolute;
-  font-size: 110px;
+  font-size: 70px;
   background: -webkit-linear-gradient(
     135deg,
     #ff9a9e,
