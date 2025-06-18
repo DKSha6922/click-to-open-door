@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click to open</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img id="gate" src="pngwing.com (11).png" alt="" />
+    <h1>Hello Developers 🎈</h1>
+    <div>
+      <button id="btnOpen">Click to Open</button>
+
+      <button id="btnClose">Click to Close</button>
+    </div>
+  </body>
+  <script>
+    document.getElementById("btnOpen").addEventListener("click", () => {
+      document.getElementById("gate").classList.add("open");
+    });
+
+    document.getElementById("btnClose").addEventListener("click", () => {
+      document.getElementById("gate").classList.remove("open");
+    });
+  </script>
+</html>
